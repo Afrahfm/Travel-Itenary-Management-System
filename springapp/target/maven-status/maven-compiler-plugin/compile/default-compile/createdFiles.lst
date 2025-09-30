@@ -1,0 +1,7 @@
+com\examly\springapp\config\SwaggerConfig.class
+com\examly\springapp\SpringappApplication.class
+com\examly\springapp\controller\ItineraryController.class
+com\examly\springapp\model\ItineraryEvent.class
+com\examly\springapp\Exception\InvalidEmailException.class
+com\examly\springapp\repository\ItineraryRepository.class
+com\examly\springapp\service\ItineraryService.class
