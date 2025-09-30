@@ -2,6 +2,8 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
+
+  "homepage": "https://afrahfm.github.io/Travel-Itenary-Management-System/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
@@ -29,7 +31,9 @@
     "start": "cross-env BROWSER=none PORT=8081 react-scripts start --disable-host-check --host 0.0.0.0",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
